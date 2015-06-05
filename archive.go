@@ -8,10 +8,32 @@ import (
 )
 
 var extensions = []string{
-	"7z", "a", "apk", "ar", "cab", "cpio", "deb",
-	"dmg", "egg", "epub", "iso", "jar", "mar", "pea",
-	"rar", "s7z", "shar", "tar", "tbz2", "tgz", "tlz",
-	"war", "whl", "xpi", "zip", "zipx",
+	"7z",
+	"a",
+	"apk",
+	"ar",
+	"cab",
+	"cpio",
+	"deb",
+	"dmg",
+	"egg",
+	"epub",
+	"iso",
+	"jar",
+	"mar",
+	"pea",
+	"rar",
+	"s7z",
+	"shar",
+	"tar",
+	"tbz2",
+	"tgz",
+	"tlz",
+	"war",
+	"whl",
+	"xpi",
+	"zip",
+	"zipx",
 }
 
 // Extensions is the extensions for different archive types
