@@ -22,6 +22,8 @@ archive.Is("src/unicorn.zip")
 archive.Is("src/unicorn.txt")
 //=> false
 ```
+### Related
+[goarchext](https://github.com/shamsher31/goarchext)
 
 ### License
 
