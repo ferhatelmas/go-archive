@@ -3,38 +3,13 @@
 package archive
 
 import (
+	"github.com/shamsher31/goarchext"
 	"path"
 	"strings"
 )
 
-var extensions = []string{
-	"7z",
-	"a",
-	"apk",
-	"ar",
-	"cab",
-	"cpio",
-	"deb",
-	"dmg",
-	"egg",
-	"epub",
-	"iso",
-	"jar",
-	"mar",
-	"pea",
-	"rar",
-	"s7z",
-	"shar",
-	"tar",
-	"tbz2",
-	"tgz",
-	"tlz",
-	"war",
-	"whl",
-	"xpi",
-	"zip",
-	"zipx",
-}
+// Call Get from goarchext package
+var extensions = archext.Get()
 
 // Extensions is the extensions for different archive types
 var Extensions map[string]bool
